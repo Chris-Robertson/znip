@@ -9,6 +9,10 @@
 ### Controllers
 
 - SnippetsContoller
+    - title
+    - description: a short description of what the snip does
+    - code: raw code
+    - category: e.g. rails, ruby, html, css, scss
 
 ### Models
 

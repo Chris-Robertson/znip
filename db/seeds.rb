@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Snippet.create [
+  { title: 'html doctype', code: '<!doctype html'},
+  { title: 'install postgresql mac', code: %(
+    brew install postegresql
+    mkdir -p ~/db/postgres
+    initdb -D ~/db/postgres/data -EUTF-8 --locale=en_US.UTF-8
+)  },
+  { title: 'start postgresql', code: 'pg_ctl start -D ~/db/postgres/data -l ~/db/postgres/postgres.log'  }
+]

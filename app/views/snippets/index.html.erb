@@ -1,0 +1,8 @@
+<h1>Home Page</h1>
+
+<% @snippets.each do |snippet| %>
+  <div class="container">
+    <h2><%= snippet.title %></h2>
+    <pre><%= snippet.code %></pre>
+  </div>
+<% end %>
